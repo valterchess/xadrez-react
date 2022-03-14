@@ -32,7 +32,7 @@ const App: React.FC = () => {
     <div className="flex-center" style={{backgroundColor:"#192a56"}}>
       <h1>Random Chess</h1>
       <Chessboard
-        width={700}
+        width={900}
         position={fen}
         onDrop={(move) =>
           handleMove({
