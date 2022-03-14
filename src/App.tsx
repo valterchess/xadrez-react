@@ -29,7 +29,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="flex-center">
+    <div className="flex-center" style={{backgroundColor:"#192a56"}}>
       <h1>Random Chess</h1>
       <Chessboard
         width={700}
