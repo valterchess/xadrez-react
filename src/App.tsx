@@ -29,10 +29,10 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="flex-center" style={{backgroundColor:"#192a56"}}>
-      <h1>Random Chess</h1>
+    <div className="flex-center">
+      <h1>Valter Chess (random chess moves)</h1>
       <Chessboard
-        width={900}
+        width={800}
         position={fen}
         onDrop={(move) =>
           handleMove({
